@@ -5,8 +5,8 @@
 <div class="background" id="background"></div>
     <div class="content">
         <h1>Under Construction</h1>
-        <p>This page is currently being built. Please check back later.</p>
-        <p>In the meantime, you can find a replacement <a href="https://startpage.schasch.xyz">here</a>.</p>
+        <p>This page is currently being built.</p>
+        <p>You can find your regular startpage <a href="https://startpage.schasch.xyz">here</a>.</p>
     </div>
 
     <script>
