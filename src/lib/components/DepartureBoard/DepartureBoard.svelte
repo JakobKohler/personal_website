@@ -24,7 +24,7 @@
 				<td class="col-description">
 					<div class="station-description">
 						<Marquee
-							text="Studium der Informatik"
+							text="Studium der Informatik -"
 						/>
 					</div>
 				</td>
