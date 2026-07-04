@@ -6,7 +6,7 @@
         {
           "program": "Computer Science B.Sc.",
           "startDate": "08/2022",
-          "endDate": "Present",
+          "endDate": "-",
           "grade": "1.2",
           "highlights": [],
           "cancelled" :false
@@ -14,14 +14,14 @@
       ]
     },
     {
-      "institution": "Karlsruhe Institute of Technology (KIT)",
+      "institution": "Karlsruhe Institute of Technology",
       "degrees": [
         {
           "program": "Computer Science B.Sc.",
           "startDate": "09/2021",
           "endDate": "08/2022",
           "highlights": [],
-          "cancelled" :true
+          "delay" :"Train cancelled"
         }
       ]
     },
@@ -29,7 +29,7 @@
       "institution": "Evang. Schulzentrum Michelbach",
       "degrees": [
         {
-          "program": "General Higher Education Entrance Qualification (Abitur)",
+          "program": "Abitur",
           "startDate": "09/2013",
           "endDate": "07/2021",
           "grade": "1.5",
@@ -44,13 +44,13 @@
 	"work": [
 		{
 			"company": "EnBW Energie Baden-Württemberg AG",
-			"location": "Karlsruhe, Baden-Württemberg, Germany (Hybrid)",
+			"location": "Karlsruhe",
 			"roles": [
 				{
 					"position": "Thesis Student in Platform Engineering",
-					"type": "Full-time",
+					"type": "Thesis Student",
 					"startDate": "04/2026",
-					"endDate": "Present",
+					"endDate": "-",
 					"title": "A Serverless Container Plattform for a Private Cloud in Critical Infrastructures",
 					"highlights": [
 						"Resolved the architectural conflict between a centralized platform and strict network microsegmentation in critical infrastructure environments",
@@ -62,7 +62,7 @@
 				},
 				{
 					"position": "Working student in UNIX Managed Services",
-					"type": "Part-time",
+					"type": "Working Student",
 					"startDate": "11/2025",
 					"endDate": "03/2026",
 					"highlights": [
@@ -77,11 +77,11 @@
 		},
 		{
 			"company": "DB InfraGO",
-			"location": "Karlsruhe, Baden-Württemberg, Germany (Hybrid)",
+			"location": "Karlsruhe",
 			"roles": [
 				{
 					"position": "Working student in project management and automation",
-					"type": "Part-time",
+					"type": "Working student",
 					"startDate": "08/2025",
 					"endDate": "10/2025",
 					"highlights": [
@@ -94,7 +94,7 @@
 		},
 		{
 			"company": "INIT Mobility Software Solutions GmbH",
-			"location": "Hamburg, Germany (On-site)",
+			"location": "Hamburg",
 			"roles": [
 				{
 					"position": "Software Development Intern",
@@ -111,11 +111,11 @@
 		},
 		{
 			"company": "DB Netz AG",
-			"location": "Karlsruhe, Baden-Württemberg, Germany (On-site)",
+			"location": "Karlsruhe",
 			"roles": [
 				{
 					"position": "Working student in project management and controlling",
-					"type": "Part-time",
+					"type": "Working student",
 					"startDate": "05/2023",
 					"endDate": "01/2024",
 					"highlights": [
