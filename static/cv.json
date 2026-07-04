@@ -1,0 +1,130 @@
+{
+   "education": [
+    {
+      "institution": "Hochschule Karlsruhe",
+      "degrees": [
+        {
+          "program": "Computer Science B.Sc.",
+          "startDate": "08/2022",
+          "endDate": "Present",
+          "grade": "1.2",
+          "highlights": [],
+          "cancelled" :false
+        }
+      ]
+    },
+    {
+      "institution": "Karlsruhe Institute of Technology (KIT)",
+      "degrees": [
+        {
+          "program": "Computer Science B.Sc.",
+          "startDate": "09/2021",
+          "endDate": "08/2022",
+          "highlights": [],
+          "cancelled" :true
+        }
+      ]
+    },
+    {
+      "institution": "Evang. Schulzentrum Michelbach",
+      "degrees": [
+        {
+          "program": "General Higher Education Entrance Qualification (Abitur)",
+          "startDate": "09/2013",
+          "endDate": "07/2021",
+          "grade": "1.5",
+          "highlights": [
+            "Advanced courses: Mathematics, Physics, English"
+          ],
+          "cancelled" :false
+        }
+      ]
+    }
+  ],
+	"work": [
+		{
+			"company": "EnBW Energie Baden-Württemberg AG",
+			"location": "Karlsruhe, Baden-Württemberg, Germany (Hybrid)",
+			"roles": [
+				{
+					"position": "Thesis Student in Platform Engineering",
+					"type": "Full-time",
+					"startDate": "04/2026",
+					"endDate": "Present",
+					"title": "A Serverless Container Plattform for a Private Cloud in Critical Infrastructures",
+					"highlights": [
+						"Resolved the architectural conflict between a centralized platform and strict network microsegmentation in critical infrastructure environments",
+						"Designed a network architecture that projects Kubernetes namespaces into isolated customer network zones while maintaining full tenant separation",
+						"Built a custom Kubernetes operator in Go for automated failover orchestration across a distributed cluster edge",
+						"Integrated Kubernetes resources into an existing enterprise IAM system, resolving ownership conflicts between platform infrastructure and tenant scopes"
+					],
+					"skills": ["Kubernetes", "Go (Programming Language)"]
+				},
+				{
+					"position": "Working student in UNIX Managed Services",
+					"type": "Part-time",
+					"startDate": "11/2025",
+					"endDate": "03/2026",
+					"highlights": [
+						"Implemented services and APIs in Go",
+						"Developed a web UI for the internal IAM API",
+						"Integrated major changes to the RBAC model in the IAM API",
+						"Bootstrapped the base infrastructure for a Kubernetes-based serverless container plattform with Knative"
+					],
+					"skills": ["TypeScript", "Linux", "+5 skills"]
+				}
+			]
+		},
+		{
+			"company": "DB InfraGO",
+			"location": "Karlsruhe, Baden-Württemberg, Germany (Hybrid)",
+			"roles": [
+				{
+					"position": "Working student in project management and automation",
+					"type": "Part-time",
+					"startDate": "08/2025",
+					"endDate": "10/2025",
+					"highlights": [
+						"Built automation tooling for data transformation in technical project management",
+						"Transformation and processing of geographical data"
+					],
+					"skills": ["Python (Programming Language)"]
+				}
+			]
+		},
+		{
+			"company": "INIT Mobility Software Solutions GmbH",
+			"location": "Hamburg, Germany (On-site)",
+			"roles": [
+				{
+					"position": "Software Development Intern",
+					"type": "Internship",
+					"startDate": "03/2024",
+					"endDate": "08/2024",
+					"highlights": [
+						"Full-stack development of planning software for public transit in agile team",
+						"Worked on DevOps process automation (CI/CD, Docker, Azure DevOps)"
+					],
+					"skills": ["TypeScript", "C#", "+2 skills"]
+				}
+			]
+		},
+		{
+			"company": "DB Netz AG",
+			"location": "Karlsruhe, Baden-Württemberg, Germany (On-site)",
+			"roles": [
+				{
+					"position": "Working student in project management and controlling",
+					"type": "Part-time",
+					"startDate": "05/2023",
+					"endDate": "01/2024",
+					"highlights": [
+						"Automated processes in project management, IT administration and controlling.",
+						"Managed of hardware equipment"
+					],
+					"skills": ["Python (Programming Language)"]
+				}
+			]
+		}
+	]
+}
