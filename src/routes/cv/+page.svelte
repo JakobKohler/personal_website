@@ -46,7 +46,7 @@
 
 <style lang="scss">
 	.station-environment {
-		background-image: url('background_trains.png');
+		background-image: url('/background_trains.png');
 		background-size: contain;
 		min-height: 100vh;
 		display: flex;
@@ -110,9 +110,6 @@
 		border-right: 2px solid #000;
 	}
 
-	.top-pillar {
-		height: 60px;
-	}
 	.mid-pillar {
 		height: 80px;
 	}
