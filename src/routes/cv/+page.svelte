@@ -47,7 +47,7 @@
 <style lang="scss">
 	.station-environment {
 		background-image: url('/background_trains.png');
-		background-size: contain;
+		background-size:cover;
 		min-height: 100vh;
 		display: flex;
 		flex-direction: column;

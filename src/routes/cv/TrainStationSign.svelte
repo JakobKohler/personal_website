@@ -132,7 +132,7 @@
 	}
 
 	.exit-text-group {
-		font-size: 0.7em;
+		font-size: 0.9em;
 		line-height: 1.2;
 		font-weight: 500;
 	}
