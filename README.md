@@ -1,1 +1,3 @@
-# Construction of personal homepage
+# Repo for my personal homepage
+
+Built with Svelte
