@@ -1,29 +1,3 @@
-<!-- <script>
-	import { onMount } from 'svelte';
-
-	let time = $state(new Date());
-
-	let hours = $derived(time.getHours() < 10 ? '0' + time.getHours() : time.getHours());
-	let minutes = $derived(time.getMinutes() < 10 ? '0' + time.getMinutes() : time.getMinutes());
-
-	onMount(() => {
-		const interval = setInterval(() => {
-			time = new Date();
-		}, 1000);
-
-		return () => {
-			clearInterval(interval);
-		};
-	});
-</script>
-
-<div class="clockContainer">
-	<p>{hours}:{minutes}</p>
-</div>
-
-<style lang="scss">
-</style> -->
-
 <!-- Credit to https://svelte.dev/playground/clock -->
 <script>
 	import { onMount } from 'svelte';
@@ -48,10 +22,10 @@
 <svg viewBox="-50 -50 100 100">
 	<circle class="clock-face" r="48" />
 
-	{#each [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55] as minute}
+	{#each [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55] as minute, index (index)}
 		<line class="major" y1="35" y2="45" transform="rotate({30 * minute})" />
 
-		{#each [1, 2, 3, 4] as offset}
+		{#each [1, 2, 3, 4] as offset, index (index)}
 			<line class="minor" y1="42" y2="45" transform="rotate({6 * (minute + offset)})" />
 		{/each}
 	{/each}
@@ -68,7 +42,7 @@
 
 <style>
 	svg {
-		height: 100px;
+		height: 100%;
 	}
 
 	.clock-face {

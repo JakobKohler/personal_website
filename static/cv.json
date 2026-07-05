@@ -5,11 +5,10 @@
       "degrees": [
         {
           "program": "Computer Science B.Sc.",
-          "startDate": "08/2022",
+          "startDate": "09/2022",
           "endDate": "-",
           "grade": "1.2",
-          "highlights": [],
-          "cancelled" :false
+          "highlights": []
         }
       ]
     },
@@ -21,7 +20,7 @@
           "startDate": "09/2021",
           "endDate": "08/2022",
           "highlights": [],
-          "delay" :"Train cancelled"
+          "status" :"Train cancelled"
         }
       ]
     },
@@ -35,8 +34,7 @@
           "grade": "1.5",
           "highlights": [
             "Advanced courses: Mathematics, Physics, English"
-          ],
-          "cancelled" :false
+          ]
         }
       ]
     }

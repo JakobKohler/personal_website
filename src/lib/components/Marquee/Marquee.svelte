@@ -3,25 +3,31 @@
 
 	let containerRef: HTMLDivElement;
 	let isOverflowing = $state(false);
-  let animationDuration = $state(24);
+    let animationDuration = $state(30);
+
+	const speed = 50;
 
 	$effect(() => {
 		if (!containerRef) return;
 
-		const checkOverflow = () => {
+		const checkLayout = () => {
 			if (isOverflowing) {
 				isOverflowing = containerRef.scrollWidth / 2 > containerRef.clientWidth;
 			} else {
 				isOverflowing = containerRef.scrollWidth > containerRef.clientWidth;
 			}
+
+			if (isOverflowing) {
+                const distanceToTravel = containerRef.scrollWidth / 2;
+                
+                animationDuration = distanceToTravel / speed;
+            }
 		};
 
-    animationDuration = containerRef.scrollWidth / 70
-
-		checkOverflow();
+		checkLayout();
 
 		const observer = new ResizeObserver(() => {
-			checkOverflow();
+			checkLayout();
 		});
 
 		observer.observe(containerRef);
@@ -34,10 +40,10 @@
 
 <div class="marquee-window" bind:this={containerRef} style="--animation-duration: {animationDuration}s;">
 	<div class="marquee-track" class:is-scrolling={isOverflowing}>
-		<span class="marquee-text">{text}</span>
-
 		{#if isOverflowing}
-			<span class="marquee-text" aria-hidden="true">+++ {text} +++</span>
+			<span class="marquee-text">{text} ++++&nbsp</span><span class="marquee-text" aria-hidden="true">{text} ++++&nbsp</span>
+		{:else}
+			<span class="marquee-text">{text}</span>
 		{/if}
 	</div>
 </div>

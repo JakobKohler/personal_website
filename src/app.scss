@@ -1,7 +1,15 @@
-:root { // gloabl colors here
+:root {
+	// gloabl colors here
+	--db-blue: #091345;
+	--db-yellow: #ffff00;
+
+	--db-text-light: #eaeaea;
+	--db-text-dark: #000000;
+	--db-line-blue: #5b699c;
+	--db-green: #00962b;
 }
 
 body {
-    background-color: #111;
-    margin: 0;
+	background-color: #212121;
+	margin: 0;
 }

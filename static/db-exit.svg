@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="100%" max-width="300px">
+
+  <g fill="#ffffff">
+    <path d="M 44 20 
+             L 19 20 
+             L 19 80 
+             L 44 80 
+             L 44 68 
+             L 31 68 
+             L 31 32 
+             L 44 32 Z" />
+             
+    <path d="M 36 44 
+             L 71 44 
+             L 71 25 
+             L 101 50 
+             L 71 75 
+             L 71 56 
+             L 36 56 Z" />
+  </g>
+</svg>

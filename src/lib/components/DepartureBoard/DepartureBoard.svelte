@@ -25,7 +25,7 @@
 			</tr>
 		</thead>
 		<tbody>
-			{#each data as station}
+			{#each data as station, index (index)}
 				<tr>
 					<td class="col-time">{station.time}</td>
 					<td class="col-time">{station.timeEnd}</td>
@@ -49,21 +49,14 @@
 </div>
 
 <style lang="scss">
-	@import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap');
-	.departure-board-wrapper {
-		--color-db-blue: #000080;
-		--color-db-yellow: #ffff00;
-
-		--color-text-light: #ffffff;
-		--color-text-dark: #000000;
-		--color-border: #1a1a80;
-	}
+	@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap');
 
 	.departure-board-wrapper {
-		background-color: var(--color-db-blue);
-		color: var(--color-text-light);
+		background-color: var(--db-blue);
+		color: var(--db-text-light);
 		border-radius: 8px;
-		font-family: 'Geist Pixel', sans-serif;
+		font-family: 'Bitcount Single', sans-serif;
+
 	}
 
 	.board-header {
@@ -75,28 +68,31 @@
 	.clock-container{
 		justify-self: start;
 		padding: .5em;
+		height: 80%;
 	}
 
 	.title {
 		justify-self: center;
+		font-size: 1.5em;
+		font-weight: 400;
 	}
 
 	.board-table {
 		width: 100%;
 		border-collapse: collapse;
-		font-size: 1.5em;
+		font-size: 1em;
 
 		th {
-			background-color: var(--color-db-yellow);
+			background-color: var(--db-yellow);
 			text-align: left;
 			padding: 0.5rem;
-
-			color: var(--color-text-dark);
+			color: var(--db-text-dark);
+			font-weight: 500;
 		}
 
 		td {
 			padding: .7em .5em;
-			border-bottom: 1px solid var(--color-border);
+			border-bottom: 1px solid var(--db-line-blue);
 		}
 	}
 
@@ -112,8 +108,8 @@
 	}
 
 	.col-time {
-		background-color: white;
-		color: var(--color-db-blue);
+		background-color: var(--db-text-light);
+		color: var(--db-blue);
 	}
 
 	.col-description {
@@ -122,7 +118,7 @@
 	}
 
 	.delay {
-		color: var(--color-db-yellow);
+		color: var(--db-yellow);
 		font-style: italic;
 	}
 </style>
