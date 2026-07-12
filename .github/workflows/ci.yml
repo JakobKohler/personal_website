@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node.js v26.4.0
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '26.4.0'
           cache: 'npm'
