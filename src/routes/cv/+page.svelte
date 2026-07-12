@@ -9,6 +9,11 @@
 	let workStations = $derived(formatWork(data?.cv?.work));
 </script>
 
+<svelte:head>
+    <title>Schasch - CV</title>
+    <meta name="description" content="My CV" />
+</svelte:head>
+
 <div class="station-environment">
 	<div class="ceiling-beam"></div>
 
@@ -22,7 +27,7 @@
 		</div>
 	</div>
 
-	<div class="board-totem">
+	<div class="board-pole">
 		<div class="board-casing">
 			<div class="mounting-bracket left"></div>
 			<div class="mounting-bracket right"></div>
@@ -94,12 +99,13 @@
 		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
 	}
 
-	.board-totem {
+	.board-pole {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		width: 100%;
 		max-width: 1100px;
+		flex: 1;
 	}
 
 	.pillar {
@@ -114,7 +120,8 @@
 		height: 80px;
 	}
 	.bottom-pillar {
-		height: 120px;
+		min-height: 80px;
+		flex: 1;
 	}
 
 	.board-casing {

@@ -7,9 +7,13 @@
 	--db-text-dark: #000000;
 	--db-line-blue: #5b699c;
 	--db-green: #00962b;
+	--bg-light: #f4f4f4;
+	--text-dark: #121212
 }
 
 body {
-	background-color: #212121;
 	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+	background-color: var(--bg-light);
+	color: var(--text-dark);
 }

@@ -5,28 +5,34 @@
 <div class="sign-board">
 	<div class="top-row">
 		<h1 class="station-name">{title}</h1>
-        <div class="badge">CV</div>
+		<div class="badge">CV</div>
 	</div>
 
 	<div class="bottom-row">
-		<div class="col left-col">
-        			<a
-				href="mailto:schasch@disroot.org"
-				class="exit-arrow left"
-				style="text-decoration: none; color: inherit;"
-			>
+		<a
+			class="col left-col"
+			href="mailto:schasch@disroot.org"
+			style="text-decoration: none; color: inherit;"
+		>
+			<div class="exit-arrow left">
 				<img src="db-exit.svg" alt="Exit Icon" />
-			</a>
-            <div class="exit-info">
+			</div>
+			<div class="exit-info">
 				<div class="exit-letter">MAIL</div>
 				<div class="exit-text-group">
 					<div><span class="exit-word">Ausgang</span><span class="exit-en">Exit</span></div>
 					<div>E-Mail</div>
 				</div>
 			</div>
-        </div>
+		</a>
 
-		<div class="col right-col">
+		<a
+			class="col right-col"
+			href="https://github.com/JakobKohler"
+			target="_blank"
+			rel="noopener noreferrer"
+			style="text-decoration: none; color: inherit;"
+		>
 			<div class="exit-info">
 				<div class="exit-letter">GH</div>
 				<div class="exit-text-group">
@@ -34,16 +40,10 @@
 					<div>GitHub</div>
 				</div>
 			</div>
-			<a
-				href="https://github.com/JakobKohler"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="exit-arrow right"
-				style="text-decoration: none; color: inherit;"
-			>
+			<div class="exit-arrow right">
 				<img src="db-exit.svg" alt="Exit Icon" />
-			</a>
-		</div>
+			</div>
+		</a>
 	</div>
 </div>
 
@@ -77,23 +77,22 @@
 		color: white;
 		font-size: 1em;
 		font-weight: 700;
-		padding: .2em 1em;
+		padding: 0.2em 1em;
 		border-radius: 50px;
 		letter-spacing: 2px;
 		margin-top: 25px;
-        margin-left: 10px;
+		margin-left: 10px;
 	}
 
 	.bottom-row {
 		display: flex;
 		border-top: 3px solid var(--db-line-blue);
-		height: 10vh;
 	}
 
 	.col {
 		display: flex;
 		align-items: center;
-		padding: 0 30px;
+		padding: 2em 30px;
 	}
 
 	.left-col {
@@ -158,9 +157,9 @@
 		align-items: center;
 	}
 
-    .exit-arrow.left {
-        img {
-            transform: scaleX(-1);
-        }
-    }
+	.exit-arrow.left {
+		img {
+			transform: scaleX(-1);
+		}
+	}
 </style>
