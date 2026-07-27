@@ -189,7 +189,7 @@
 <div class="page-wrapper">
     <main class="container">
         <div class="content">
-            <h1>Jakob's Stuff</h1>
+            <h1>Jakob's Stuff</h1> <!-- landing on landing page -->
             <p class="subtitle">🚧 This website is under construction 🚧</p>
 
             <div class="action-section">
@@ -264,71 +264,11 @@
         font-size: 1.1rem;
         color: var(--text-muted, #9ca3af);
         margin-bottom: 2rem;
-		font-style: italic;
-    }
-
-    section {
-        margin-bottom: 2rem;
-    }
-
-    h2 {
-        font-size: 1.2rem;
-        color: var(--accent);
-        margin-bottom: 1rem;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-    }
-
-    .info-section p {
-        font-size: 1.1rem;
-        line-height: 1.6;
-        margin: 0;
-    }
-
-    .tags {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.75rem;
-        justify-content: center;
-    }
-
-    .tags li {
-        background-color: rgba(255, 255, 255, 0.05);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        padding: 0.4rem 1rem;
-        border-radius: 999px;
-        font-size: 0.95rem;
-        transition: border-color 0.2s ease;
-    }
-
-    .links-grid {
-        display: flex;
-        gap: 1.5rem;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .links-grid a {
-        color: var(--text-light);
-        text-decoration: none;
-        font-weight: 500;
-        border-bottom: 2px solid transparent;
-        padding-bottom: 2px;
-        transition: all 0.2s ease;
-    }
-
-    .links-grid a:hover {
-        color: var(--accent);
-        border-bottom-color: var(--accent);
     }
 
     .action-section {
         margin-top: 3rem;
         padding-top: 2rem;
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
     }
 
     .cv-button {
@@ -373,3 +313,4 @@
 </style>
 
 <!-- Idea, traffic style -->
+<!-- Idea, something with maps -->
