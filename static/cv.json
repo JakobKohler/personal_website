@@ -6,7 +6,7 @@
         {
           "program": "Computer Science B.Sc.",
           "startDate": "09/2022",
-          "endDate": "-",
+          "endDate": "08/2026",
           "grade": "1.2",
           "highlights": []
         }
@@ -48,7 +48,7 @@
 					"position": "Thesis Student in Platform Engineering",
 					"type": "Thesis Student",
 					"startDate": "04/2026",
-					"endDate": "-",
+					"endDate": "07/2026",
 					"title": "A Serverless Container Plattform for a Private Cloud in Critical Infrastructures",
 					"highlights": [
 						"Resolved the architectural conflict between a centralized platform and strict network microsegmentation in critical infrastructure environments",
